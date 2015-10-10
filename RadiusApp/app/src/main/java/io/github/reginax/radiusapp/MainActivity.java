@@ -1,5 +1,12 @@
 package io.github.reginax.radiusapp;
 
+// these might come useful??
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Arrays;
+
+
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -48,5 +55,41 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    // Displays the messages receieved
+    public void displayReceived(View view) {
+
+    }
+
+    // Displays the messages sent
+    public void displaySent(View view) {
+
+    }
+
+    // Displays a map of everything ever received and sent
+    public void displayMap(View view) {
+
+    }
+
+    // prep and send a new message
+    public void sendNewMsg(View view) {
+
+    }
+
+    // display the current settings
+    public void displaySettings(View view) {
+
+    }
+
+    // show a list of friends
+    // should allow deletion and addition of friends
+    public void Friends(View view) {
+
+    }
+
+    // go back to the home menu!
+    public void goHome(View view) {
+
     }
 }
