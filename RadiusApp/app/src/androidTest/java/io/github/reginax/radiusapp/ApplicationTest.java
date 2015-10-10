@@ -1,4 +1,4 @@
-package io.github.cesarvh.radiusapp;
+package io.github.reginax.radiusapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
