@@ -15,44 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    // Displays the messages receieved
-    public void displayReceived(View view) {
-
-
-    }
-    // Displays the messages sent
-    public void displaySent(View view) {
-
-    }
-
-    // Displays a map of everything ever received and sent
-    public void displayMap(View view) {
-
-    }
-
-    // prep and send a new message
-    public void sendNewMsg(View view) {
-//        Intent intent = new Intent(this, SendNewMessageActivity.class);
-//        Button buttonPressed = (EditText) findViewById(R.id.button);
-//        String message = editText.getText().toString();
-//        intent.putExtra(EXTRA_MESSAGE, message);
-//        startActivity(intent);
-    }
-
-    // display the current settings
-    public void displaySettings(View view) {
-        Intent intent = new Intent(this, SettingsActivity.class);
+    // Displays Login
+    public void displayLogin(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
-    }
-
-    // show a list of friends
-    // should allow deletion and addition of friends
-    public void Friends(View view) {
-
-    }
-
-    // go back to the home menu!
-    public void goHome(View view) {
-
     }
 }
