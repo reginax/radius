@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">RadiusApp</string>
-    <string name="facebook_app_id">Facebook App ID</string>
     <string name="button_sent">Sent</string>
     <string name="button_received">Archive</string>
     <string name="button_map">Map</string>
@@ -35,7 +34,7 @@
         based on your message history
     </string>
 
-    <string name="pref_default_display_name">Kelly Berk</string>
+    <string name="pref_title_display_name">Display Name</string>
     <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
